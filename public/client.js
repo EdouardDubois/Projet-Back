@@ -1,4 +1,4 @@
-var socket = io("http://127.0.0.1:8888/");
+var socket = io("https://edouard-dubois.herokuapp.com/");
 var objJoueur; // Caractéristiques du joueur
 var joueursDemande; // Joueurs en cours d'invitation
 var room; // La room dans laquelle est le joueur

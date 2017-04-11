@@ -314,5 +314,4 @@ io.on("connection", function (socket) {
 // Écoute du serveur
 httpServer.listen(process.env.PORT || 8888,function(){
   console.log(chalk.bgWhite.black("Serveur accessible à l'adresse:" + chalk.bgBlue.black(" 127.0.0.1:8888")));
-  console.log();
 });
